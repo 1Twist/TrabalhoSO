@@ -17,7 +17,6 @@ def consume_memory_and_process():
             large_list = generate_large_list(1_000_000)
             allocated_memory.append(large_list)
             
-            # Sort the list to simulate intensive processing
             sorted_list = sort_large_list(large_list)
             allocated_memory.append(sorted_list)
             
